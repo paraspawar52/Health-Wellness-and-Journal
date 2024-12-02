@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsxnpm install react-router-dom}"],
+  content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {},
   },
   plugins: [],
 }
+
