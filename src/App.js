@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import Navbar from './Component/Navbar'
+import Section from './Component/Section'
+import Mainpoint from './Component/Mainpoint'
+import Howitswork from './Component/Howitswork'
+import Footer from './Component/Footer'
+import TakeControl from './Component/TakeControl'
+import Paras from './Component/Paras'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar/>
+      <Section/>
+      <Mainpoint/>
+      
+      <Howitswork/>
+      <TakeControl/> 
+      <Footer/>
+      {/* <Paras/> */}
     </div>
-  );
+
+  )
 }
 
-export default App;
+export default App
